@@ -4,7 +4,9 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "docker:compose:up": "docker compose up",
+        "docker:compose:down": "docker compose down"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
