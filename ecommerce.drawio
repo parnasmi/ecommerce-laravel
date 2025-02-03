@@ -206,7 +206,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BDrDbM9m9sWbNNaQyZ64-91" value="role_user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;shadow=0;glass=0;swimlaneFillColor=default;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="660" y="150" width="140" height="104" as="geometry" />
+          <mxGeometry x="660" y="160" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="BDrDbM9m9sWbNNaQyZ64-93" value="id&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BDrDbM9m9sWbNNaQyZ64-91" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -241,13 +241,13 @@
         <mxCell id="BDrDbM9m9sWbNNaQyZ64-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="BDrDbM9m9sWbNNaQyZ64-99" target="BDrDbM9m9sWbNNaQyZ64-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiLYAEaTBQqvmpuW4-SY-1" value="product_user (favorites&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;shadow=0;glass=0;swimlaneFillColor=default;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="BiLYAEaTBQqvmpuW4-SY-1" value="product_user (favorites&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;shadow=0;glass=0;swimlaneFillColor=default;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="290" y="290" width="140" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="BiLYAEaTBQqvmpuW4-SY-3" value="product_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BiLYAEaTBQqvmpuW4-SY-1">
+        <mxCell id="BiLYAEaTBQqvmpuW4-SY-3" value="product_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BiLYAEaTBQqvmpuW4-SY-1" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BiLYAEaTBQqvmpuW4-SY-5" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BiLYAEaTBQqvmpuW4-SY-1">
+        <mxCell id="BiLYAEaTBQqvmpuW4-SY-5" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BiLYAEaTBQqvmpuW4-SY-1" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
       </root>

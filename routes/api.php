@@ -12,9 +12,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 Route::post('login', [AuthController::class, 'login']);
 Route::post('register', [AuthController::class, 'register']);
@@ -27,6 +27,8 @@ Route::apiResources([
 
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::apiResource('favorites', FavoriteController::class);
+    Route::get('/user', [AuthController::class, 'user']);
+    Route::get('/logout', [AuthController::class, 'logout']);
 });
 
 // Route::group(['middleware' => ['auth:sanctum']], function () {

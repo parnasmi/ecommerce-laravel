@@ -27,4 +27,11 @@ class AuthController extends Controller
     }
 
     public function register() {}
+
+    public function user(Request $request)
+    {
+        return $request->user();
+    }
+
+    public function logout(Request $request) {}
 }
